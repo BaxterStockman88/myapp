@@ -33,7 +33,7 @@ function getMovie(){
 
   axios.get('http://www.omdbapi.com?i='+movieId)
     .then((response) => {
-      console.log(response);
+      console.log(responseee);
       let movie = response.data;
 
       let output =`
